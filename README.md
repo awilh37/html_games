@@ -5,5 +5,8 @@ games in html either by me or forked
 This whole repository is organized by the developer that created the game, then the item they created, complete with links to their Github page, the items I imported, and the repositories they came from. If you have any ideas, find a bug, or would like to request an import, please let me know. 
 Thanks!
 
+## Markdown
+I am marking down some **bold**, *italic* [links](https://en.wikipedia.org/wiki/Buffalo_buffalo_Buffalo_buffalo_buffalo_buffalo_Buffalo_buffalo).
+
 # Developers
 [OnyxDev87](OnyxDev87/projects)
