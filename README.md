@@ -18,3 +18,5 @@ Thanks!
 
 # Others
 [Knock off Geometry Dash](other/gd.html)
+
+[CookieClicker.ee](other/cookie_clicker/index.html)
