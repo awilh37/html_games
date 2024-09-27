@@ -1,1 +1,1 @@
-[pong-wars](pong-wars/index.html)
+[pong-wars](pong-wars.html)
