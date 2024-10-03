@@ -2,4 +2,4 @@
 [Github page](https://github.com/LucaMartinez1)
 
 ## Tomb-Of-The-Mask
-[Tomb-Of-The-Mask](https://awilh37.github.io/html_games/LucaMartinez1/Tomb-Of-The-Mask/index.html)
+[Repository](https://github.com/LucaMartinez1/Tomb-Of-The-Mask) | [Run code](Tomb-Of-The-Mask/index.html)
