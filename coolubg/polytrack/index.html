@@ -1,35 +1,34 @@
 <!DOCTYPE html>
-<html>
 
-<head>
-  <title>Polytrack</title>
-  <meta property="og:description"
-    content="Polytrack is trackmania. Play for Free at CoolUBG" />
-  <meta name="description"
-    content="Polytrack is trackmania. Play for Free at CoolUBG" />
-  <script src="/html_games/coolubg/analytics.js"></script>
-  <script src="/html_games/coolubg/main.js" defer></script>
-  <link rel="stylesheet" type="text/css" href="/html_games/coolubg/games.css">
-  <script>
-    var gameName = "polytrack"
-    var titleText = "Polytrack";
-    var author = "Kodub";
-    var authorLink = "https://www.kodub.com/"
-  </script>
-</head>
+<html lang="en-US">
+	<head>
+		<title>PolyTrack</title><meta name="description" content="A low-poly racing game with loops, jumps and high speeds, where every millisecond counts."><meta property="og:title" content="PolyTrack"><meta property="og:description" content="A low-poly racing game with loops, jumps and high speeds, where every millisecond counts."><meta property="og:type" content="website"><meta property="og:url" content="https://www.kodub.com/apps/polytrack"><meta property="og:image" content="https://www.kodub.com/apps/polytrack/image"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@KodubDev">		<link rel="stylesheet" type="text/css" href="/css/app.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+		<noscript>
+			<style>
+				#app {
+					display: none;
+				}
+			</style>
+		</noscript>
+	</head>
 
-<body>
-  <div id="navbar-container"></div>
-  <div class="navbar-spacer"></div>
-  <iframe id="game-iframe" src="" width="800px" height="600px" frameborder="0"></iframe>
-  <div id="titlebar-container"></div>
-  <div class="description" style="width: calc(800px - 40px);">
-    <h1 style="margin-top: 5px;">Instructions and Overview</h1>
-    <p>
-      PolyTrack is a low-poly racing game with loops, jumps and high speeds, where every millisecond counts. The game is heavily inspired by TrackMania, where you race against the clock to get the best time.
-    </p>
-  </div>
-  <br>
-</body>
+	<body>
+		<noscript>Error: JavaScript is not supported</noscript>
+		<iframe id="app" src="https://app-polytrack.kodub.com/0.4.1/?" importance="high" sandbox="allow-scripts allow-same-origin allow-top-navigation allow-popups allow-popups-to-escape-sandbox allow-pointer-lock allow-downloads" allow="autoplay;fullscreen;vr;xr-spatial-tracking;clipboard-write">Error: iframe is not supported</iframe>		<script>
+			var iframe = document.getElementById("app");
+			iframe.addEventListener("load", function() {
+				this.focus();
+			});
 
+			window.addEventListener("message", function(event) {
+				var domain = "https:\/\/app-polytrack.kodub.com";
+				if (event.origin == domain) {
+					if (event.data.hasOwnProperty("replaceState")) {
+						window.history.replaceState(null, "", event.data["replaceState"]);
+					}
+				}
+			});
+		</script>
+	</body>
 </html>
