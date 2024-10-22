@@ -6,6 +6,8 @@ This whole repository is organized by the developer that created the game, then 
 Thanks!
 
 # Developers
+[awilh37](awilh37/projects)
+
 [OnyxDev87](OnyxDev87/projects)
 
 [jakesgordon](jakesgordon/projects)
