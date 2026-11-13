@@ -1,13 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<!-- Ultimate Game Stash file--> 
-<!-- For the regularly updating doc go to https://docs.google.com/document/d/1_FmH3BlSBQI7FGgAQL59-ZPe8eCxs35wel6JUyVaG8Q/ -->
-<!--this is an enjoyable single player game where you platform and shoot zombies. Uses raw.githubusercontent and jsdelivr -->
   <head>
-  <base href="https://cdn.jsdelivr.net/gh/Stinkalistic/junk@main/zombotronreboot/">
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Zombotron</title>
+    <title>Unity WebGL Player | Zombotron</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <link rel="manifest" href="manifest.webmanifest">
@@ -60,8 +56,8 @@
         updateBannerVisibility();
       }
 
-      var buildUrl = "https://awilh37.github.io/html_games/other/philipeZombie";
-      var loaderUrl = "https://cdn.jsdelivr.net/gh/Stinkalistic/junk@main/zombotronreboot/Build/Zombotron.loader.js";
+      var buildUrl = "Build";
+      var loaderUrl = buildUrl + "/Zombotron.loader.js";
       var config = {
         dataUrl: buildUrl + "/Zombotron.data.unityweb",
         frameworkUrl: buildUrl + "/Zombotron.framework.js.unityweb",
